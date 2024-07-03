@@ -1,0 +1,5 @@
+redis:
+  uri: ${REDIS_URI:redis://localhost:6379}
+  ssl: ${REDIS_USE_SSL:false}
+  password: ${REDIS_PASSWORD:}
+  topology: ${REDIS_TOPOLOGY:standalone}
